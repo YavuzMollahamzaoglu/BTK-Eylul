@@ -66,6 +66,7 @@ img {
 .icon {
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -293,97 +294,48 @@ img {
     width: 40px;
     height: 40px;
 }
-
-
-.icon-star{
-    background-image: url('../img/299040_star_icon.png');
-   background-size: contain;
-   filter: grayscale(1);
-}
-
-.active{
+.text-gold {
     color: #E7C873;
+}
+.icon-star {
+    display: block;
+    background-image: url('../img/icon/star.svg');
+    width: 16px;
+    height: 16px;
+    filter: grayscale(1);
+}
+.icon-star.active {
     filter: grayscale(0);
 }
 
-.avatar{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border: solid 1px black;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-.avatar img{
-    object-fit: cover;
-}
-
-.topside-info{
-    margin-left: 10px;
-    width: 200px;
-}
-
-.topside-left{
-    align-items: center;
-    justify-content: center;
-}
-
-.icon-quote{
-    width: 30px;
+.icon-comment {
+    background-image: url('../img/icon/comment.svg');
+    width: 50px;
     height: 50px;
-    margin-left: 100px;
-    justify-content: center;
-    align-items: center;
 }
 
-.middle{
-    margin-top: 20px;
-}
-
-.button-left{
+.icon-arrow {
     display: flex;
-    width: 50px;
-    height: 28px;
-    border: solid gray;
-    border-radius: 30px;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid #E9E9E9;
+    border-radius: 20px;
+    transition: all 200ms;
+}
+.icon-arrow:hover {
+    background-color: #FAF4E3;
+    border-color: #E7C873;
+}
+.icon-arrow-left {
+    background-image: url('../img/icon/arrow-left.svg');
+    width: 12px;
+    height: 12px;
 }
 
-.button-right{
-    display: flex;
-    width: 50px;
-    height: 28px;
-    border: solid gray;
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.button-left img{
-    margin-bottom: 3px;
- 
-}
-.button-right img{
-    margin-bottom: 3px;
-}
-  
- 
-.button-right-left{
-    margin-top: 20px;
-}
-
-.images-brand{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.top-infos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+.icon-arrow-right {
+    background-image: url('../img/icon/arrow-right.svg');
+    width: 12px;
+    height: 12px;
 }
