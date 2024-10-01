@@ -1,0 +1,10 @@
+{
+  "editor.lineHeight": 1.7,
+  "editor.hover.enable": false,
+  "editor.FoldingControls": "always",
+  "editor.folding": true,
+  "files.autoSave": "afterDelay",
+  "editor.foldingStrategy": "indentation",
+  "editor.bracketPairColorization.enable": true,
+  "editor.guides.bracketPairs": "active"
+}
